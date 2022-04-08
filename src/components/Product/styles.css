@@ -1,0 +1,79 @@
+.productCard {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border: 2px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  max-height: 350px;
+}
+.imgCardContent {
+  width: 320px;
+  height: 150px;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.descriptionsCardContent {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  align-items: flex-start;
+  gap: 12px;
+}
+.cardName {
+  color: #333333;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+}
+.cardCategory {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #828282;
+}
+.cardPrice {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #27ae60;
+}
+.cardImg {
+  width: 147px;
+  height: 147px;
+}
+.buttonCard {
+  width: 106px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  padding: 0px 20px 0px 20px;
+  background-color: #27ae60;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  cursor: pointer;
+}
+.buttonCard:hover {
+  background-color: #93d7af;
+}
+
+@media screen and (min-width: 1024px) {
+  .imgCardContent {    
+    width: 100%;
+  }
+}
