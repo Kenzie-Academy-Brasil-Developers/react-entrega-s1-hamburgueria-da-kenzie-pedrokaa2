@@ -1,6 +1,5 @@
 .productCardCart {
   display: flex;
-  width: 400px;
   height: 100px;
   align-items: center;
   padding: 10px 10px 10px 10px;
@@ -20,7 +19,7 @@
   max-width: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   margin-right: 30px;
   text-align: start;
 }
@@ -36,7 +35,6 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  max-width: 15ch;
 }
 .productCartCategory {
   font-family: 'Inter', sans-serif;

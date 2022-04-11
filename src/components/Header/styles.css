@@ -21,11 +21,9 @@ main {
   max-width: 350px;
   height: 60px;
   margin-top: 20px;
-  margin-right: 10px;
   border-radius: 8px;
   border: 2px solid #e0e0e0;
   background-color: white;
-  padding: 0px 10px 0px 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,17 +49,13 @@ main {
   color: #e0e0e0;
 }
 
-.inputHeader:focus {
-  box-shadow: 0 0 0 0;
-  outline: 0;
-}
-
 .buttonHeader {
   width: 35%;
   height: 40px;
   border: none;
   border-radius: 8px;
   padding: 0px 20px;
+  margin-right: 10px;
   background-color: #27ae60;
   color: white;
   font-family: 'Inter', sans-serif;
@@ -76,16 +70,19 @@ main {
 }
 
 @media screen and (min-width: 1024px) {
+  main {
+    gap: 3%;
+  }
   .formHeader {
     width: 30%;
   }
   .contentHeader {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 50%;
     align-items: center;
     height: 80px;
-    padding: 0px 80px;
   }
   .imgHeader {
     width: 158.94px;
@@ -102,6 +99,5 @@ main {
     justify-content: center;
     align-items: center;
     margin: 0;
-    margin-right: 6%;
   }
 }
