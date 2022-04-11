@@ -4,7 +4,7 @@ import Cart from "./components/Cart"
 import Header from "./components/Header"
 import ProductList from "./components/ProductList"
 import CartTotal from "./components/CartTotal"
-import { ToastContainer, toast, Bounce } from 'react-toastify'
+// import { ToastContainer, toast, Bounce } from 'react-toastify'
 
 function App() {
   const [products, setProducts] = useState([])
